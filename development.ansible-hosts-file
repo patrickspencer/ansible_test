@@ -2,4 +2,5 @@
 # Rename this file to 'hosts' and move it to /etc/ansible/
 
 # All actions will be done locally instead of through ssh
+[webservers]
 localhost              ansible_connection=local

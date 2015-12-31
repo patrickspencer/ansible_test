@@ -1,0 +1,7 @@
+---
+
+git_repo: https://github.com/patrickspencer/compass
+
+project_name: Compass
+db_user: compass_webapp
+

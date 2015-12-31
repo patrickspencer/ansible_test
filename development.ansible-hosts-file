@@ -4,3 +4,6 @@
 # All actions will be done locally instead of through ssh
 [webservers]
 localhost              ansible_connection=local
+
+[dbservers]
+localhost              ansible_connection=local

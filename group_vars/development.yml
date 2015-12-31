@@ -4,7 +4,6 @@
 setup_git_repo: yes
 git_branch: master
 
-
 # Database settings.
 db_user: compass_webapp
 db_name: compass_webapp_dev

@@ -1,7 +1,7 @@
 ---
 
-- name: Provision a {{ project_name }} web server
-  hosts: webservers
+- name: Provision a {{ project_name }} db server
+  hosts: dbservers
   sudo: yes
   sudo_user: root
   remote_user: root
@@ -13,4 +13,4 @@
 
   roles:
     - base
-    - web
+    - db

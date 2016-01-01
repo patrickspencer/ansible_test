@@ -2,6 +2,9 @@
 
 git_repo: https://github.com/patrickspencer/compass
 
-project_name: Compass
-db_user: compass_webapp
+project_name: compass
+db_user: "{{project_name}}_webapp"
+
+sys_user: "{{project_name}}_webapp"
+sys_group: "{{project_name}}_webapp"
 
